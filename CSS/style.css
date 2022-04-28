@@ -1,0 +1,239 @@
+@media (max-width: 426px) {
+  header {
+    height: 80px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .Menu1 {
+    width: 130px;
+    padding: 20px;
+    margin: 10px;
+  }
+
+  body {
+    width: 426px;
+  }
+
+  footer {
+    height: 70px;
+    width: 100%;
+  }
+
+  article {
+    margin: 20px;
+  }
+
+  article img {
+    width: 300px;
+    height: auto;
+    border: none;
+  }
+
+  .Bannière {
+    width: auto;
+    height: 50px;
+    background-color: #2e75b6;
+    border-radius: 50%;
+    padding: 5px;
+    margin: 5px;
+    border: solid white 5px;
+  }
+
+  .tel {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    background-color: white;
+    border-radius: 50%;
+  }
+}
+
+/*Général*/
+
+header {
+  background-color: #2e75b6;
+  color: white;
+  display: flex;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+menu {
+  display: flex;
+  justify-content: space-around;
+  padding-inline-start: 0px;
+}
+.Menu1 {
+  background-color: #4dbeec;
+  border: solid lightgray 2px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2em;
+  font-family: Segoe UI;
+}
+
+p {
+  font-family: Segoe UI;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #95d1cc;
+}
+
+.Menu1:hover {
+  background-color: white;
+  border: solid #4dbeec 2px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-family: Segoe UI;
+}
+
+footer {
+  margin-top: 10px;
+  background-color: #2e75b6;
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+
+footer h1 {
+  padding: 30px;
+  font-size: 1em;
+}
+
+.ArticleCase {
+  border: solid #2e75b6 5px;
+  border-radius: 20px;
+  text-align: center;
+  background-image: url(./Image/téléchargement.jfif);
+}
+
+.Menu0 {
+  background-color: white;
+  border: solid #4dbeec 2px;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #4dbeec;
+  width: 130px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.Photo_prophile {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+  border: solid 5px #2e75b6;
+}
+
+.Nom h1 {
+  margin: 0px;
+}
+
+.Nom {
+  width: 300px;
+  text-align: center;
+  font-size: 2em;
+}
+
+h2 {
+  margin: 0px;
+  font-size: 1em;
+}
+.Prophile {
+  padding: 20px;
+  width: auto;
+  border: #2e75b6 solid 5px;
+  border-radius: 20px;
+  margin: auto;
+  margin-bottom: 20px;
+  display: block;
+}
+
+.NOMPHOTO {
+  display: flex;
+}
+
+.Prophile a {
+  background-color: #4dbeec;
+}
+.RDV {
+  text-align: center;
+  background-color: #4dbeec;
+  padding: 30px;
+  border-radius: 20px;
+  display: flex;
+}
+
+.ProphileMap {
+  padding: 20px;
+  width: auto;
+  border: #2e75b6 solid 5px;
+  border-radius: 20px;
+  margin: auto;
+  margin-bottom: 20px;
+  display: block;
+  padding: 20px;
+  padding-left: 40px;
+  margin: auto;
+}
+
+p {
+  margin-top: 0px;
+}
+
+h3 {
+  margin-bottom: 0px;
+  text-decoration: underline;
+}
+
+.adresse {
+  color: #2e75b6;
+}
+
+a.LP {
+  background-color: white;
+  color: #4dbeec;
+}
+
+td,
+tr {
+  border: 1px solid black;
+  font-family: Segoe UI;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+th {
+  background-color: #2e75b6;
+  color: white;
+  font-family: Segoe UI;
+}
+
+.Titre {
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+.TITRE {
+  height: 70px;
+  background-color: white;
+  border-radius: 20px;
+}
