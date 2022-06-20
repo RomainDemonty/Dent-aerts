@@ -6,6 +6,8 @@
   }
 
 /*Général*/
+
+
 body{
   width: 100%;
   background-color: white;
@@ -31,10 +33,13 @@ header {
 }
 
 menu {
-  display: flex;
+  width: 100%;
+  margin: auto;
   justify-content: space-around;
   padding-inline-start: 0px;
 }
+
+
 .Menu1 {
   background-color: #7dBFEB;
   border: solid #C5E2F6 2px;
@@ -70,6 +75,10 @@ h1 {
   font-family: Segoe UI;
 }
 
+article{
+  height: 80%;
+}
+
 footer {
   margin-top: 10px;
   background-color: #EEEEEE;
@@ -85,10 +94,10 @@ footer h1 {
 }
 
 .ArticleCase {
-  border: solid #7dBFEB 3px;
+  padding-top: 20px;
+  background-color: #EEEEEE;
   border-radius: 20px;
   text-align: center;
-  background-image: url(./Image/téléchargement.jfif);
 }
 
 .Menu0 {
@@ -124,12 +133,11 @@ h2 {
 .Profile {
   padding: 20px;
   width: auto;
-  border: #7dBFEB solid 3px;
   border-radius: 20px;
   margin: auto;
   margin-bottom: 20px;
   display: block;
-  /*background-color: #EEEEEE;*/
+  background-color: #EEEEEE;
 }
 
 .NOMPHOTO {
@@ -165,7 +173,7 @@ h3 {
 }
 
 a.LP {
-  background-color: white;
+  background-color: #EEEEEE;
   color: #4dbeec;
 }
 
@@ -219,14 +227,24 @@ th {
     width: 100%;
   }
 
+  menu{
+    display: flex;
+    justify-content: center;
+  }
+
+  menu section{
+    display: flex;
+    justify-content: center;
+  }
+
   .Menu1 {
-    width: 130px;
+    width: 150px;
     padding: 20px;
     margin: 10px;
   }
 
   .Menu0 {
-    width: 130px;
+    width: 150px;
     padding: 20px;
     margin: 10px;
   }
@@ -286,6 +304,16 @@ th {
     width: 100%;
   }
 
+  menu{
+    display: flex;
+    justify-content: center;
+  }
+
+  menu section{
+    display: flex;
+    justify-content: center;
+  }
+
   .Menu1 {
     width: 130px;
     padding: 20px;
@@ -340,9 +368,9 @@ th {
   }
 
   body{
-    background-size: 500px 700px;
+    background-size: 1000px 1400px;
     background-position-y: 120px;
-    background-position-x: 75px;
+    background-position-x: 300px;
   }
 }
 
@@ -353,14 +381,24 @@ th {
     width: 100%;
   }
 
+  menu{
+    display: flex;
+    justify-content: center;
+  }
+
+  menu section{
+    display: flex;
+    justify-content: center;
+  }
+
   .Menu1 {
-    width: 130px;
+    width: 100px;
     padding: 20px;
     margin: 10px;
   }
 
   .Menu0 {
-    width: 130px;
+    width: 100px;
     padding: 20px;
     margin: 10px;
   }
@@ -381,8 +419,8 @@ th {
   }
 
   .Bannière {
-    width: 50px;
-    height: 50px;
+    width: 65px;
+    height: 65px;
     background-color: #2e75b6;
     border-radius: 50%;
     padding: 3px;
@@ -407,17 +445,26 @@ th {
   }
 
   body{
-    background-size: 500px 700px;
+    background-size: 1000px 1400px;
     background-position-y: 120px;
-    background-position-x: 75px;
+    background-position-x: 300px;
   }
 }
 
 @media screen and (max-width: 1024px) {
   header {
-    height: 80px;
+    height: 100px;
     margin-bottom: 20px;
     width: 100%;
+  }
+
+  menu{
+    display: flex;
+  }
+
+  menu section{
+    justify-content: center;
+    flex-wrap: wrap;
   }
 
   .Menu1 {
@@ -474,17 +521,26 @@ th {
   }
 
   body{
-    background-size: 500px 700px;
+    background-size: 1000px 1400px;
     background-position-y: 120px;
-    background-position-x: 75px;
+    background-position-x: 300px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
   header {
     height: 100px;
     margin-bottom: 20px;
     width: 100%;
+  }
+
+  menu{
+    flex-wrap:wrap;
+  }
+
+  menu section{
+    display: flex;
+    justify-content: center;
   }
 
   .Menu1 {
@@ -542,19 +598,27 @@ th {
   }
 
   body{
-    background-size: 500px 700px;
+    background-size: 800px 1120px;
     background-position-y: 120px;
-    background-position-x: 75px;
+    background-position-x: 150px;
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 426px) {
   header {
     height: 80px;
     margin-bottom: 20px;
     width: 100%;
   }
 
+  menu{
+    flex-wrap:wrap;
+  }
+
+  menu section{
+    display: flex;
+    justify-content: center;
+  }
 
   .Menu1 {
     width: 110px;
@@ -615,17 +679,26 @@ th {
 
   body{
     background-size: 500px 700px;
-    background-position-y: 120px;
-    background-position-x: 75px;
+    background-position-y: 170px;
+    background-position-x: 150px;
   }
   
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
   header {
     height: 60px;
     margin-bottom: 20px;
     width: 100%; 
+  }
+
+  menu{
+    flex-wrap:wrap;
+  }
+
+  menu section{
+    display: flex;
+    justify-content: center;
   }
 
   .Menu1 {
@@ -687,7 +760,7 @@ th {
 
   body{
     background-size: 500px 700px;
-    background-position-y: 120px;
+    background-position-y: 150px;
     background-position-x: 75px;
   }
   
@@ -701,6 +774,14 @@ th {
     width: 100%;
   }
 
+  menu{
+    flex-wrap:wrap;
+  }
+
+  menu section{
+    display: flex;
+    justify-content: center;
+  }
   
   .Menu1 {
     width: 100px;
@@ -759,10 +840,12 @@ th {
     height: 50px;
   }
 
+    
   body{
     background-size: 500px 700px;
     background-position-y: 120px;
     background-position-x: 75px;
   }
-  
 }
+
+
