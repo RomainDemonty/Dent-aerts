@@ -13,7 +13,7 @@ body{
   background-color: white;
   background-image: url("../Image/Logo_gris.png");
   background-repeat: no-repeat;
-    margin: auto;
+  margin: auto;
   padding: 0px;
 }
 
@@ -51,11 +51,11 @@ a {
   text-decoration: none;
   color: white;
   font-size: 1.2em;
-  font-family: Segoe UI;
+  font-family: "Segoe UI";
 }
 
 p {
-  font-family: Segoe UI;
+  font-family: "Segoe UI";
   margin-top: 0px;
 }
 
@@ -72,7 +72,7 @@ a:hover {
 }
 
 h1 {
-  font-family: Segoe UI;
+  font-family: "Segoe UI";
 }
 
 article{
@@ -94,9 +94,15 @@ footer h1 {
 }
 
 .ArticleCase {
+  max-width: 1100px;
+  width: 90%;
+  margin: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
   padding-top: 20px;
   background-color: #EEEEEE;
   border-radius: 20px;
+  
   text-align: center;
 }
 
@@ -109,7 +115,7 @@ footer h1 {
   color: #4dbeec;
 }
 
-.Photo_profile {
+.Photo_profil {
   width: 100px;
   height: auto;
   border-radius: 50%;
@@ -130,13 +136,14 @@ h2 {
   margin: 0px;
   font-size: 1em;
 }
-.Profile {
+.Profil {
   padding: 20px;
   width: auto;
+  max-width: 1100px;
   border-radius: 20px;
   margin: auto;
-  margin-bottom: 20px;
-  display: block;
+  margin-top: 5%;
+  margin-bottom: 5%;
   background-color: #EEEEEE;
 }
 
@@ -144,18 +151,16 @@ h2 {
   display: flex;
 }
 
-.Profile a {
-  background-color: #4dbeec;
-}
 .RDV {
   text-align: center;
-  background-color: #7dBFEB;
+  background-color: white;
+  color: black;
   padding: 30px;
   border-radius: 20px;
   display: flex;
 }
 
-.ProfileMap {
+.ProfilMap {
   padding: 20px;
   width: auto;
   margin: auto;
@@ -180,7 +185,7 @@ a.LP {
 td,
 tr {
   border: 1px solid black;
-  font-family: Segoe UI;
+  font-family: "Segoe UI";
 }
 
 table {
@@ -191,7 +196,7 @@ table {
 th {
   background-color: #2e75b6;
   color: white;
-  font-family: Segoe UI;
+  font-family: "Segoe UI";
 }
 
 .Titre {
@@ -199,14 +204,15 @@ th {
   display: flex;
   justify-content: center;
   z-index: 2;
+  margin-top: 5px;
 }
 
-.TITRE {
-  /*dent aerts en fond blanc pour qu'il resorte
+/*.TITRE {
+  dent aerts en fond blanc pour qu'il resorte
   background-color: white;
   border-radius: 20px;
-  */
-}
+  
+}*/
 
 .Bannière{
   z-index: 1;
@@ -215,91 +221,37 @@ th {
 .MAP{
   width: 90%;
   height: 90%;
+  min-height: 300px;
   margin-bottom: 10%;
+}
+
+li{
+  font-family: "Segoe UI";
+}
+
+article img {
+  width: 90%;
+  height: auto;
+  border: none;
+}
+
+.tel {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+h1,h2,h3{
+  font-family: 'Segoe UI';
 }
 
 /*taille d'écran*/
 
 @media screen and (min-width: 2560px) {
   header {
-    height: 80px;
-    margin-bottom: 20px;
-    width: 100%;
-  }
-
-  menu{
-    display: flex;
-    justify-content: center;
-  }
-
-  menu section{
-    display: flex;
-    justify-content: center;
-  }
-
-  .Menu1 {
-    width: 150px;
-    padding: 20px;
-    margin: 10px;
-  }
-
-  .Menu0 {
-    width: 150px;
-    padding: 20px;
-    margin: 10px;
-  }
-
-  footer {
-    height: 80px;
-    width: 100%;
-  }
-
-  article {
-    margin: 20px;
-  }
-
-  article img {
-    width: 1500px;
-    height: auto;
-    border: none;
-  }
-
-  .Bannière {
-    width: 50px;
-    height: 50px;
-    background-color: #2e75b6;
-    border-radius: 50%;
-    padding: 3px;
-    margin: 10px;
-  }
-
-  .tel {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
-    background-color: white;
-    border-radius: 50%;
-  }
-
-  .Titre {
-    margin-top: 5px;
-  }
-
-  .TITRE{
-    /*taille du logo pour centrer la banière*/
-    margin-left:-80px;
-  }
-
-  body{
-    background-size: 500px 700px;
-    background-position-y: 120px;
-    background-position-x: 75px;
-  } 
-}
-
-@media screen and (max-width: 2560px) {
-  header {
-    height: 80px;
+    height: 100px;
     margin-bottom: 20px;
     width: 100%;
   }
@@ -333,89 +285,6 @@ th {
 
   article {
     margin: 20px;
-  }
-
-  article img {
-    width: 1300px;
-    height: auto;
-    border: none;
-  }
-
-  .Bannière {
-    width: 50px;
-    height: 50px;
-    background-color: #2e75b6;
-    border-radius: 50%;
-    padding: 3px;
-    margin: 10px;
-  }
-
-  .tel {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
-    background-color: white;
-    border-radius: 50%;
-  }
-
-  .Titre {
-    margin-top: 5px;
-  }
-
-  .TITRE{
-    /*taille du logo pour centrer la banière*/
-    margin-left:-80px;
-  }
-
-  body{
-    background-size: 1000px 1400px;
-    background-position-y: 120px;
-    background-position-x: 300px;
-  }
-}
-
-@media screen and (max-width: 1440px) {
-  header {
-    height: 80px;
-    margin-bottom: 20px;
-    width: 100%;
-  }
-
-  menu{
-    display: flex;
-    justify-content: center;
-  }
-
-  menu section{
-    display: flex;
-    justify-content: center;
-  }
-
-  .Menu1 {
-    width: 100px;
-    padding: 20px;
-    margin: 10px;
-  }
-
-  .Menu0 {
-    width: 100px;
-    padding: 20px;
-    margin: 10px;
-  }
-
-  footer {
-    height: 80px;
-    width: 100%;
-  }
-
-  article {
-    margin: 20px;
-  }
-
-  article img {
-    width: 900px;
-    height: auto;
-    border: none;
   }
 
   .Bannière {
@@ -427,21 +296,131 @@ th {
     margin: 10px;
   }
 
-  .tel {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
-    background-color: white;
-    border-radius: 50%;
+  .TITRE{
+    /*taille du logo pour centrer la banière*/
+    margin-left:-80px;
+    height: 90px;
   }
 
-  .Titre {
-    margin-top: 5px;
+  body{
+    background-size: 1000px 1400px;
+    background-position-y: 120px;
+    background-position-x: 300px;
+  }
+}
+
+@media screen and (max-width: 2560px) {
+  header {
+    height: 100px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  menu{
+    display: flex;
+    justify-content: center;
+  }
+
+  menu section{
+    display: flex;
+    justify-content: center;
+  }
+
+  .Menu1 {
+    width: 130px;
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .Menu0 {
+    width: 130px;
+    padding: 20px;
+    margin: 10px;
+  }
+
+  footer {
+    height: 80px;
+    width: 100%;
+  }
+
+  article {
+    margin: 20px;
+  }
+
+  .Bannière {
+    width: 65px;
+    height: 65px;
+    background-color: #2e75b6;
+    border-radius: 50%;
+    padding: 3px;
+    margin: 10px;
   }
 
   .TITRE{
     /*taille du logo pour centrer la banière*/
     margin-left:-80px;
+    height: 90px;
+  }
+
+  body{
+    background-size: 1000px 1400px;
+    background-position-y: 120px;
+    background-position-x: 300px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  header {
+    height: 100px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  menu{
+    display: flex;
+    justify-content: center;
+  }
+
+  menu section{
+    display: flex;
+    justify-content: center;
+  }
+
+  .Menu1 {
+    width: 100px;
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .Menu0 {
+    width: 100px;
+    padding: 20px;
+    margin: 10px;
+  }
+
+  footer {
+    height: 80px;
+    width: 100%;
+  }
+
+  article {
+    margin: 20px;
+  }
+
+
+  .Bannière {
+    width: 65px;
+    height: 65px;
+    background-color: #2e75b6;
+    border-radius: 50%;
+    padding: 3px;
+    margin: 10px;
+  }
+
+  .TITRE{
+    /*taille du logo pour centrer la banière*/
+    margin-left:-80px;
+    height: 90px;
   }
 
   body{
@@ -488,36 +467,20 @@ th {
     margin: 20px;
   }
 
-  article img {
-    width: 700px;
-    height: auto;
-    border: none;
-  }
 
   .Bannière {
-    width: 50px;
-    height: 50px;
+    width: 65px;
+    height: 65px;
     background-color: #2e75b6;
     border-radius: 50%;
     padding: 3px;
     margin: 10px;
   }
 
-  .tel {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
-    background-color: white;
-    border-radius: 50%;
-  }
-
-  .Titre {
-    margin-top: 5px;
-  }
-
   .TITRE{
     /*taille du logo pour centrer la banière*/
     margin-left:-80px;
+    height: 90px;
   }
 
   body{
@@ -564,11 +527,6 @@ th {
     margin: 20px;
   }
 
-  article img {
-    width: 350px;
-    height: auto;
-    border: none;
-  }
 
   .Bannière {
     width: 65px;
@@ -577,18 +535,6 @@ th {
     border-radius: 50%;
     padding: 3px;
     margin: 10px;
-  }
-
-  .tel {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
-    background-color: white;
-    border-radius: 50%;
-  }
-
-  .Titre {
-    margin-top: 5px;
   }
 
   .TITRE{
@@ -641,11 +587,6 @@ th {
     margin: 20px;
   }
 
-  article img {
-    width: 300px;
-    height: auto;
-    border: none;
-  }
 
   .Bannière {
     width: 50px;
@@ -657,18 +598,6 @@ th {
     /*bordure blanche autour du logo
     border: solid white 5px;
     */
-  }
-
-  .tel {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
-    background-color: white;
-    border-radius: 50%;
-  }
-
-  .Titre {
-    margin-top: 5px;
   }
 
   .TITRE{
@@ -722,11 +651,6 @@ th {
     margin: 20px;
   }
 
-  article img {
-    width: 250px;
-    height: auto;
-    border: none;
-  }
 
   .Bannière {
     width: 30px;
@@ -738,18 +662,6 @@ th {
     /*bordure blanche autour du logo
     border: solid white 5px;
     */
-  }
-
-  .tel {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
-    background-color: white;
-    border-radius: 50%;
-  }
-
-  .Titre {
-    margin-top: 5px;
   }
 
   .TITRE{
@@ -804,12 +716,6 @@ th {
     margin: 20px;
   }
 
-  article img {
-    width: 90%;
-    height: auto;
-    border: none;
-  }
-
   .Bannière {
     width: 30px;
     height: 30px;
@@ -822,30 +728,15 @@ th {
     */
   }
 
-  .tel {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
-    background-color: white;
-    border-radius: 50%;
-  }
-
-  .Titre {
-    margin-top: 5px;
-  }
-
   .TITRE{
     /*taille du logo pour centrer la banière*/
     margin-left:-56px;
     height: 50px;
   }
 
-    
   body{
     background-size: 500px 700px;
     background-position-y: 120px;
     background-position-x: 75px;
   }
 }
-
-
