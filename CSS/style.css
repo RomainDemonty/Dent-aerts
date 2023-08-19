@@ -281,7 +281,7 @@ article img {
 }
 
 .Profil h1{
-  font-size: 1.9em;
+  font-size: 1.7em;
   text-decoration: underline;
 }
 
@@ -294,7 +294,7 @@ h5{
 }
 
 h4 {
-  font-size: 0.95em;
+  font-size: 0.9em;
 }
 
 h5{
@@ -364,7 +364,7 @@ h5{
   }
 
   .TITRE {
-    /*taille du logo pour centrer la banière*/
+    /*taille du pour centrer la banière*/
     margin-left: -80px;
     height: 90px;
   }
