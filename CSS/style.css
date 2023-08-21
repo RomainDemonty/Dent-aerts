@@ -137,8 +137,9 @@ footer h1 {
 
 .Nom {
   width: 300px;
-  text-align: center;
   font-size: 2em;
+  text-decoration:underline;
+  margin: 10px;
 }
 
 h2 {
