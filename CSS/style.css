@@ -10,8 +10,8 @@
 body {
   width: 100%;
   background-color: white;
-  background-image: url("../Image/Logo_gris.png");
-  background-repeat: no-repeat;
+  /*background-image: url("../Image/Logo_gris.png");
+  background-repeat: no-repeat;*/
   margin: auto;
   padding: 0px;
 }
