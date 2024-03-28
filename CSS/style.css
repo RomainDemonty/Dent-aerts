@@ -102,7 +102,7 @@ footer h1 {
   font-size: 0.7em;
 }
 
-.ArticleCase {
+.ArticleCase {/*contient toute la case grise de l index*/
   max-width: 1100px;
   width: 90%;
   margin: auto;
@@ -146,7 +146,7 @@ h2 {
   margin: 0px;
   font-size: 1em;
 }
-.Profil {
+.ContainerAlignementMargin {
   padding: 20px;
   width: auto;
   max-width: 1100px;
@@ -168,13 +168,13 @@ h2 {
   margin-bottom: 20px;
 }
 
-#ProfilConseils{
+#ContainerGrisDirection{
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-#ProfilConseils img{
+#ContainerGrisDirection img{
 margin: 20px;
 width: 90%;
 max-width: 800px;
@@ -183,6 +183,16 @@ max-width: 800px;
 .NOMPHOTO {
   display: flex;
 }
+
+.AlignementDroite{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.AlignementDroiteTexte{
+text-align: end;
+}
+
 
 .RDV {
   text-align: center;
@@ -193,7 +203,7 @@ max-width: 800px;
   display: flex;
 }
 
-.ProfilMap {
+.MainIndex { /*Contient les horaires et le texte sur l'index*/
   padding: 20px;
   width: auto;
   margin: auto;
@@ -281,7 +291,7 @@ article img {
   border-radius: 50%;
 }
 
-.Profil h1{
+.ContainerAlignementMargin h1{
   font-size: 1.7em;
   text-decoration: underline;
 }
@@ -305,8 +315,14 @@ h5{
   margin-top: 10px;
 }
 
-#SitGroupe{
+#CitGroupe{
   text-align: center;
+}
+
+#imageGroupe{
+  border-radius: 10px;
+  max-width: 200px;
+  width: 60%;
 }
 
 #Ligne{
@@ -801,6 +817,6 @@ h5{
   }
 }
 
-.Cop {
+.LinkGithubAndCopiright {
   color: #2e75b6;
 }
