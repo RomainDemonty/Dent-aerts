@@ -1,3 +1,58 @@
+.menu-container {
+  position: relative;
+}
+
+.menu-btn {
+  width: 40px;
+  height: 30px;
+  position: relative;
+  cursor: pointer;
+  margin: 10px; /* Ajout de la marge par défaut */
+  display: none; /* Masquer le bouton par défaut */
+}
+
+.bar {
+  width: 100%;
+  height: 4px;
+  background-color: #333;
+  position: absolute;
+  transition: transform 0.3s ease;
+  border-radius: 2px;
+}
+
+.bar1 {
+  top: 0;
+}
+
+.bar2 {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.bar3 {
+  bottom: 0;
+}
+
+.menu-open .bar1 {
+  transform: translateY(50%) rotate(45deg) translateX(8px) translateY(8px); /* Ajout de translateX */
+}
+
+.menu-open .bar2 {
+  display: none; /* Pour masquer la barre du milieu */
+}
+
+.menu-open .bar3 {
+  transform: translateY(-50%) rotate(-45deg) translateX(8px) translateY(-8px); /* Ajout de translateX */
+}
+
+
+
+
+
+
+
+
+
 /*si l'écran est en noir il inverse les couleurs*/
 @media (prefers-color-scheme: white) {
   html {
@@ -345,7 +400,7 @@ h5{
     justify-content: center;
   }
 
-  menu section {
+  menu.menu-open section{
     display: flex;
     justify-content: center;
   }
@@ -405,7 +460,7 @@ h5{
     justify-content: center;
   }
 
-  menu section {
+  menu.menu-open section{
     display: flex;
     justify-content: center;
   }
@@ -465,7 +520,7 @@ h5{
     justify-content: center;
   }
 
-  menu section {
+  menu.menu-open section{
     display: flex;
     justify-content: center;
   }
@@ -524,7 +579,7 @@ h5{
     display: flex;
   }
 
-  menu section {
+  menu.menu-open section{
     justify-content: center;
     flex-wrap: wrap;
   }
@@ -583,7 +638,7 @@ h5{
     flex-wrap: wrap;
   }
 
-  menu section {
+  menu.menu-open section{
     display: flex;
     justify-content: center;
   }
@@ -642,7 +697,7 @@ h5{
     flex-wrap: wrap;
   }
 
-  menu section {
+  menu.menu-open section{
     display: flex;
     justify-content: center;
   }
@@ -704,7 +759,7 @@ h5{
     flex-wrap: wrap;
   }
 
-  menu section {
+  menu.menu-open section {
     display: flex;
     justify-content: center;
   }
@@ -766,7 +821,7 @@ h5{
     flex-wrap: wrap;
   }
 
-  menu section {
+  menu.menu-open section {
     display: flex;
     justify-content: center;
   }
