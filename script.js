@@ -13,11 +13,12 @@ function toggleMenu() {
         // Si la classe menu-open est présente, afficher la liste de menu
         menuList.querySelectorAll('a').forEach(function(item) {
             item.style.display = 'wrap';
+            document.querySelector('#menu-list.menu').style.display = 'block';
         });
     } else {
         // Sinon, cacher la liste de menu
         menuList.querySelectorAll('a').forEach(function(item) {
-            item.style.display = 'none';
+            document.querySelector('#menu-list.menu').style.display = 'none';
         });
     }
 }
@@ -30,7 +31,7 @@ function adjustMenuDisplay() {
 
     if (window.innerWidth <= 600) {
         menuBtn.style.display = 'flex';
-        menuList.style.display = menuBtn.classList.contains('menu-open') ? 'flex' : 'none';
+        menuList.style.display = menuBtn.classList.contains('menu-open') ? 'block' : 'none';
     } else {
         menuBtn.style.display = 'none';
         menuList.style.display = 'flex';
